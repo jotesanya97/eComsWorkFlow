@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: workflow1.Ecom.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 88.637 sec - in workflow1.Ecom.RunnerTest
