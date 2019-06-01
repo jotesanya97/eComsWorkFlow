@@ -1,5 +1,24 @@
 @Login
 Feature: Login Test
+  Scenario Outline: As a user I want to see if an error message will appear when I login with the incorrect details
+    Given I go to the Home Page
+    And I click the login link
+    And I enter my email "<email>" address
+    And I enter my password "<password>"
+    When I click the login button
+    Then I want to see an error "<errormessage>" error message details
+
+    Examples:
+      | email                | password       | errormessage   |
+      | jotesanya97@gmail.com |               | Invalid request|
+      |                       | Bababinraders1| Invalid request|
+      | jotesanya97@gmail.com | yeezus        | Invalid login  |
+      | xxxxxxxxxx@gmail.com  | Bababinraders1| Invalid login  |
+      |                       |               | Invalid request|
+
+
+  @Login
+
 
   Scenario Outline: As a user I want to check if I can login successfully
     Given I go to the Home Page
@@ -10,26 +29,24 @@ Feature: Login Test
     Then I verify that "<user>" is logged in
     And I sign out
 
-    Examples: 
-      | email                  | password  | user           |
-      | davin.riches@gmail.com | Today01   | Davin Riches   |
-      | mike261@gmail.com      | Today01   | mike dean      |
-      | mike424@gmail.com      | Today01   | sarah anne     |
+    Examples:
+      | email                  | password         | user           |
+      | jotesanya97@gmail.com  | Bababinraders1   | James Otesanya |
 
-    @Login
-    Scenario Outline: As a user I want to see an error message when I login incorrectly
-      Given I go to the Home Page
-      And I click the login link
-      And I enter my email "<email>" address
-      And I enter my password "<password>"
-      When I click the login button
-      Then I see an error "<errormessage>" message details
+    #@Login
+    #Feature: Login Test
 
-      Examples:
-      | email               | password | errormessage              |
-      | maxtest964@gmail.com|          | Password is required.     |
-      |                     | Today1   | An email address required.|
-      | maxtest964@gmail.com| xxxxxx   | Authentication failed.    |
-      | xxxxxxxxx@gmail.com | Today1   | Authentication failed.    |
-      |                     |          | An email address required.|
+  #Scenario Outline: As a user I want to check if I can login successfully
+    #Given I go to the Home Page
+    #And I click the login link
+    #And I enter my email "<email>" address
+    #And I enter my password "<password>"
+    #When I click the login button
+   # Then I verify that "<user>" is logged in
+   # And I sign out
+
+   # Examples:
+    #  | email                  | password         | user           |
+     # | jotesanya97@gmail.com  | Bababinraders1   | James Otesanya |
+
 

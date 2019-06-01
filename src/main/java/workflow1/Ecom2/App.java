@@ -1,4 +1,4 @@
-package workflow1.Ecom;
+package workflow1.Ecom2;
 
 /**
  * Hello world!
