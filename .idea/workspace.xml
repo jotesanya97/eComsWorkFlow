@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="016bc88f-a8d4-4b57-b662-fa12d483e7a5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/Search.feature" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/java/workflow1/Ecom/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/ForgotPsw.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/workflow1/Ecom2/App.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/ForgotPsw-feature.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/ForgotPsw.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-workflow1.Ecom.AppTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-workflow1.Ecom2.RunnerTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/workflow1.Ecom.AppTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/workflow1.Ecom2.RunnerTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/ForgotPsw.feature" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/workflow1/Ecom/AppTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/workflow1/Ecom2/RunnerTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/workflow1/Ecom2/StepDefinitions.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Assign1.iml" afterPath="$PROJECT_DIR$/next.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/workflow1/Ecom2/App.java" afterPath="$PROJECT_DIR$/src/main/java/workflow1/Next/App.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/workflow1/Ecom2/RunnerTest.java" afterPath="$PROJECT_DIR$/src/test/java/workflow1/Next/RunnerTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/workflow1/Ecom2/StepDefinitions.java" afterPath="$PROJECT_DIR$/src/test/java/workflow1/Next/StepDefinitions.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/config/config.properties" afterPath="$PROJECT_DIR$/src/main/java/config/config.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Login.feature" afterPath="$PROJECT_DIR$/src/test/resources/Login.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/Register.feature" afterPath="$PROJECT_DIR$/src/test/resources/Register.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/Login-feature.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/Login-feature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/Login.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/Login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/Register-feature.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/Register-feature.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/Register.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/Register.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/failures-overview.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/failures-overview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/feature-overview.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/feature-overview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/step-overview.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/step-overview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/tag-overview.html" afterPath="$PROJECT_DIR$/target/cucumber-report-html/cucumber-html-reports/tag-overview.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber.json" afterPath="$PROJECT_DIR$/target/cucumber.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Login.feature" afterPath="$PROJECT_DIR$/target/test-classes/Login.feature" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/Register.feature" afterPath="$PROJECT_DIR$/target/test-classes/Register.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,8 +20,8 @@
       <file leaf-file-name="RunnerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/workflow1/Next/RunnerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,7 +165,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="34" />
     <option name="width" value="1340" />
@@ -659,8 +618,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="34" width="1376" height="702" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="34" width="1376" height="702" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -957,8 +915,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/workflow1/Next/RunnerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+        <state relative-caret-position="136">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
