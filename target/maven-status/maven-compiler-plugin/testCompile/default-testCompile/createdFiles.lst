@@ -1,3 +1,2 @@
-workflow1\Ecom2\StepDefinitions.class
-workflow1\Ecom\AppTest.class
-workflow1\Ecom2\RunnerTest.class
+workflow1\Next\RunnerTest.class
+workflow1\Next\StepDefinitions.class

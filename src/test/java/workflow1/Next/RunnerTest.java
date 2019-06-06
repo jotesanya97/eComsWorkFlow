@@ -1,4 +1,4 @@
-package workflow1.Ecom2;
+package workflow1.Next;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 		features = "src/test/resources",
 		format = {"pretty", "json:target/cucumber.json"},
 		//tags = {"~@ignore"},
-		tags = {"@Login, @ForgotPsw, @Register"},
+		tags = {"@Register, @Search, @Login"},
 		strict = false
 )
 public class RunnerTest {

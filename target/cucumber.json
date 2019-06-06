@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 14722207772,
+              "duration": 9102934269,
               "status": "passed"
             },
             "match": {
@@ -14,116 +14,19 @@
             }
           }
         ],
-        "line": 4,
-        "name": "As a user I want to see if I can still login even though I have forgotten my password",
+        "line": 15,
+        "name": "As a user I want to check if I can login successfully",
         "description": "",
-        "id": "forgotpsw-test;as-a-user-i-want-to-see-if-i-can-still-login-even-though-i-have-forgotten-my-password",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 17810257198,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I go to the Home Page",
-            "match": {
-              "location": "StepDefinitions.i_go_to_the_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 13742005629,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I click the login link",
-            "match": {
-              "location": "StepDefinitions.i_click_the_login_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 12161869171,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click on the forgot your password link",
-            "match": {
-              "location": "StepDefinitions.i_click_on_the_forgot_your_password_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 451968277,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I enter my email in the enter email field",
-            "match": {
-              "location": "StepDefinitions.i_enter_my_email_in_the_enter_email_field()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1342873744,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click reset password",
-            "match": {
-              "location": "StepDefinitions.i_click_reset_password()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "ForgotPsw Test",
-    "description": "",
-    "id": "forgotpsw-test",
-    "keyword": "Feature",
-    "uri": "ForgotPsw.feature",
-    "tags": [
-      {
-        "line": 1,
-        "name": "@ForgotPsw"
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 328420,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefinitions.setup()"
-            }
-          }
-        ],
-        "line": 13,
-        "name": "As a user I want to see if an error message will appear when I login with the incorrect details",
-        "description": "",
-        "id": "login-test;as-a-user-i-want-to-see-if-an-error-message-will-appear-when-i-login-with-the-incorrect-details;;2",
+        "id": "login-test;as-a-user-i-want-to-check-if-i-can-login-successfully;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 7174849731,
+              "duration": 10693491462,
               "status": "passed"
             },
-            "line": 4,
+            "line": 5,
             "name": "I go to the Home Page",
             "match": {
               "location": "StepDefinitions.i_go_to_the_Home_Page()"
@@ -132,22 +35,22 @@
           },
           {
             "result": {
-              "duration": 9373178249,
+              "duration": 8052693333,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I click the login link",
+            "line": 6,
+            "name": "I click my account",
             "match": {
-              "location": "StepDefinitions.i_click_the_login_link()"
+              "location": "StepDefinitions.i_click_my_account()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 509775888,
+              "duration": 3473877895,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "I enter my email \"jotesanya97@gmail.com\" address",
             "match": {
               "arguments": [
@@ -165,19 +68,19 @@
           },
           {
             "result": {
-              "duration": 116672530,
+              "duration": 303956959,
               "status": "passed"
             },
-            "line": 7,
-            "name": "I enter my password \"\"",
+            "line": 8,
+            "name": "I enter my password \"Today01\"",
             "match": {
               "arguments": [
                 {
-                  "val": "",
+                  "val": "Today01",
                   "offset": 21
                 }
               ],
-              "location": "StepDefinitions.i_enter_my_password(String)"
+              "location": "StepDefinitions.iEnterMyPassword(String)"
             },
             "matchedColumns": [
               1
@@ -186,27 +89,177 @@
           },
           {
             "result": {
-              "duration": 186029126,
+              "duration": 5252160000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I click the login button",
+            "line": 9,
+            "name": "I click the sign in now button",
             "match": {
-              "location": "StepDefinitions.i_click_the_login_button()"
+              "location": "StepDefinitions.i_click_the_sign_in_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2361421287,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I verify that \"James\" is logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "James",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.i_verify_that_is_logged_in(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6490021988,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I sign out",
+            "match": {
+              "location": "StepDefinitions.i_sign_out()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Login"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 302222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "As a user I want to see if an error message will appear when I login with the incorrect details",
+        "description": "",
+        "id": "login-test;as-a-user-i-want-to-see-if-an-error-message-will-appear-when-i-login-with-the-incorrect-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5167434854,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I go to the Home Page",
+            "match": {
+              "location": "StepDefinitions.i_go_to_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6555542456,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click my account",
+            "match": {
+              "location": "StepDefinitions.i_click_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 644900117,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I clear the email input field",
+            "match": {
+              "location": "StepDefinitions.i_clear_the_email_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1983085848,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter my email \"jotesanya97@gmail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jotesanya97@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.i_enter_my_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159696842,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter my password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.iEnterMyPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3532438830,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click the sign in now button",
+            "match": {
+              "location": "StepDefinitions.i_click_the_sign_in_now_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2099417826,
+              "duration": 410105263,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I want to see an error \"Invalid request\" error message details",
+            "line": 26,
+            "name": "I want to see an error \"Sorry, we have been unable to sign you in.\" error message details",
             "match": {
               "arguments": [
                 {
-                  "val": "Invalid request",
+                  "val": "Sorry, we have been unable to sign you in.",
                   "offset": 24
                 }
               ],
@@ -229,7 +282,7 @@
         "before": [
           {
             "result": {
-              "duration": 320935,
+              "duration": 211462,
               "status": "passed"
             },
             "match": {
@@ -237,7 +290,7 @@
             }
           }
         ],
-        "line": 14,
+        "line": 31,
         "name": "As a user I want to see if an error message will appear when I login with the incorrect details",
         "description": "",
         "id": "login-test;as-a-user-i-want-to-see-if-an-error-message-will-appear-when-i-login-with-the-incorrect-details;;3",
@@ -246,10 +299,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2160535840,
+              "duration": 6149145263,
               "status": "passed"
             },
-            "line": 4,
+            "line": 20,
             "name": "I go to the Home Page",
             "match": {
               "location": "StepDefinitions.i_go_to_the_Home_Page()"
@@ -258,22 +311,34 @@
           },
           {
             "result": {
-              "duration": 9630919989,
+              "duration": 6179764211,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I click the login link",
+            "line": 21,
+            "name": "I click my account",
             "match": {
-              "location": "StepDefinitions.i_click_the_login_link()"
+              "location": "StepDefinitions.i_click_my_account()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 94840524,
+              "duration": 601328655,
               "status": "passed"
             },
-            "line": 6,
+            "line": 22,
+            "name": "I clear the email input field",
+            "match": {
+              "location": "StepDefinitions.i_clear_the_email_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1425661755,
+              "status": "passed"
+            },
+            "line": 23,
             "name": "I enter my email \"\" address",
             "match": {
               "arguments": [
@@ -291,10 +356,10 @@
           },
           {
             "result": {
-              "duration": 282901927,
+              "duration": 303840000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 24,
             "name": "I enter my password \"Bababinraders1\"",
             "match": {
               "arguments": [
@@ -303,7 +368,7 @@
                   "offset": 21
                 }
               ],
-              "location": "StepDefinitions.i_enter_my_password(String)"
+              "location": "StepDefinitions.iEnterMyPassword(String)"
             },
             "matchedColumns": [
               1
@@ -312,27 +377,27 @@
           },
           {
             "result": {
-              "duration": 125915086,
+              "duration": 4036979650,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I click the login button",
+            "line": 25,
+            "name": "I click the sign in now button",
             "match": {
-              "location": "StepDefinitions.i_click_the_login_button()"
+              "location": "StepDefinitions.i_click_the_sign_in_now_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2118832059,
+              "duration": 363273918,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I want to see an error \"Invalid request\" error message details",
+            "line": 26,
+            "name": "I want to see an error \"Sorry, we have been unable to sign you in.\" error message details",
             "match": {
               "arguments": [
                 {
-                  "val": "Invalid request",
+                  "val": "Sorry, we have been unable to sign you in.",
                   "offset": 24
                 }
               ],
@@ -355,7 +420,7 @@
         "before": [
           {
             "result": {
-              "duration": 460350,
+              "duration": 182456,
               "status": "passed"
             },
             "match": {
@@ -363,7 +428,7 @@
             }
           }
         ],
-        "line": 15,
+        "line": 32,
         "name": "As a user I want to see if an error message will appear when I login with the incorrect details",
         "description": "",
         "id": "login-test;as-a-user-i-want-to-see-if-an-error-message-will-appear-when-i-login-with-the-incorrect-details;;4",
@@ -372,10 +437,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3269406747,
+              "duration": 6968858011,
               "status": "passed"
             },
-            "line": 4,
+            "line": 20,
             "name": "I go to the Home Page",
             "match": {
               "location": "StepDefinitions.i_go_to_the_Home_Page()"
@@ -384,22 +449,34 @@
           },
           {
             "result": {
-              "duration": 7081772946,
+              "duration": 4775455439,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I click the login link",
+            "line": 21,
+            "name": "I click my account",
             "match": {
-              "location": "StepDefinitions.i_click_the_login_link()"
+              "location": "StepDefinitions.i_click_my_account()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 383712030,
+              "duration": 3183617310,
               "status": "passed"
             },
-            "line": 6,
+            "line": 22,
+            "name": "I clear the email input field",
+            "match": {
+              "location": "StepDefinitions.i_clear_the_email_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1702079065,
+              "status": "passed"
+            },
+            "line": 23,
             "name": "I enter my email \"jotesanya97@gmail.com\" address",
             "match": {
               "arguments": [
@@ -417,10 +494,10 @@
           },
           {
             "result": {
-              "duration": 220564734,
+              "duration": 242254970,
               "status": "passed"
             },
-            "line": 7,
+            "line": 24,
             "name": "I enter my password \"yeezus\"",
             "match": {
               "arguments": [
@@ -429,7 +506,7 @@
                   "offset": 21
                 }
               ],
-              "location": "StepDefinitions.i_enter_my_password(String)"
+              "location": "StepDefinitions.iEnterMyPassword(String)"
             },
             "matchedColumns": [
               1
@@ -438,27 +515,27 @@
           },
           {
             "result": {
-              "duration": 158688825,
+              "duration": 4446840702,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I click the login button",
+            "line": 25,
+            "name": "I click the sign in now button",
             "match": {
-              "location": "StepDefinitions.i_click_the_login_button()"
+              "location": "StepDefinitions.i_click_the_sign_in_now_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2109349971,
+              "duration": 90821988,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I want to see an error \"Invalid login\" error message details",
+            "line": 26,
+            "name": "I want to see an error \"Sorry, we have been unable to sign you in.\" error message details",
             "match": {
               "arguments": [
                 {
-                  "val": "Invalid login",
+                  "val": "Sorry, we have been unable to sign you in.",
                   "offset": 24
                 }
               ],
@@ -481,7 +558,7 @@
         "before": [
           {
             "result": {
-              "duration": 174035,
+              "duration": 160935,
               "status": "passed"
             },
             "match": {
@@ -489,7 +566,7 @@
             }
           }
         ],
-        "line": 16,
+        "line": 33,
         "name": "As a user I want to see if an error message will appear when I login with the incorrect details",
         "description": "",
         "id": "login-test;as-a-user-i-want-to-see-if-an-error-message-will-appear-when-i-login-with-the-incorrect-details;;5",
@@ -498,10 +575,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2195787236,
+              "duration": 5574221287,
               "status": "passed"
             },
-            "line": 4,
+            "line": 20,
             "name": "I go to the Home Page",
             "match": {
               "location": "StepDefinitions.i_go_to_the_Home_Page()"
@@ -510,22 +587,34 @@
           },
           {
             "result": {
-              "duration": 8306408783,
+              "duration": 5954074386,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I click the login link",
+            "line": 21,
+            "name": "I click my account",
             "match": {
-              "location": "StepDefinitions.i_click_the_login_link()"
+              "location": "StepDefinitions.i_click_my_account()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 589745797,
+              "duration": 682128655,
               "status": "passed"
             },
-            "line": 6,
+            "line": 22,
+            "name": "I clear the email input field",
+            "match": {
+              "location": "StepDefinitions.i_clear_the_email_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1771511579,
+              "status": "passed"
+            },
+            "line": 23,
             "name": "I enter my email \"xxxxxxxxxx@gmail.com\" address",
             "match": {
               "arguments": [
@@ -543,10 +632,10 @@
           },
           {
             "result": {
-              "duration": 420686932,
+              "duration": 425337076,
               "status": "passed"
             },
-            "line": 7,
+            "line": 24,
             "name": "I enter my password \"Bababinraders1\"",
             "match": {
               "arguments": [
@@ -555,7 +644,7 @@
                   "offset": 21
                 }
               ],
-              "location": "StepDefinitions.i_enter_my_password(String)"
+              "location": "StepDefinitions.iEnterMyPassword(String)"
             },
             "matchedColumns": [
               1
@@ -564,27 +653,27 @@
           },
           {
             "result": {
-              "duration": 1643790140,
+              "duration": 3072535205,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I click the login button",
+            "line": 25,
+            "name": "I click the sign in now button",
             "match": {
-              "location": "StepDefinitions.i_click_the_login_button()"
+              "location": "StepDefinitions.i_click_the_sign_in_now_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2101220863,
+              "duration": 1342307369,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I want to see an error \"Invalid login\" error message details",
+            "line": 26,
+            "name": "I want to see an error \"Sorry, we have been unable to sign you in.\" error message details",
             "match": {
               "arguments": [
                 {
-                  "val": "Invalid login",
+                  "val": "Sorry, we have been unable to sign you in.",
                   "offset": 24
                 }
               ],
@@ -607,7 +696,7 @@
         "before": [
           {
             "result": {
-              "duration": 255439,
+              "duration": 131930,
               "status": "passed"
             },
             "match": {
@@ -615,7 +704,7 @@
             }
           }
         ],
-        "line": 17,
+        "line": 34,
         "name": "As a user I want to see if an error message will appear when I login with the incorrect details",
         "description": "",
         "id": "login-test;as-a-user-i-want-to-see-if-an-error-message-will-appear-when-i-login-with-the-incorrect-details;;6",
@@ -624,10 +713,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2767339850,
+              "duration": 6080582924,
               "status": "passed"
             },
-            "line": 4,
+            "line": 20,
             "name": "I go to the Home Page",
             "match": {
               "location": "StepDefinitions.i_go_to_the_Home_Page()"
@@ -636,22 +725,34 @@
           },
           {
             "result": {
-              "duration": 9950948395,
+              "duration": 6076140350,
               "status": "passed"
             },
-            "line": 5,
-            "name": "I click the login link",
+            "line": 21,
+            "name": "I click my account",
             "match": {
-              "location": "StepDefinitions.i_click_the_login_link()"
+              "location": "StepDefinitions.i_click_my_account()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 98957475,
+              "duration": 705940585,
               "status": "passed"
             },
-            "line": 6,
+            "line": 22,
+            "name": "I clear the email input field",
+            "match": {
+              "location": "StepDefinitions.i_clear_the_email_input_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1478663860,
+              "status": "passed"
+            },
+            "line": 23,
             "name": "I enter my email \"\" address",
             "match": {
               "arguments": [
@@ -669,10 +770,10 @@
           },
           {
             "result": {
-              "duration": 108684709,
+              "duration": 120345263,
               "status": "passed"
             },
-            "line": 7,
+            "line": 24,
             "name": "I enter my password \"\"",
             "match": {
               "arguments": [
@@ -681,7 +782,7 @@
                   "offset": 21
                 }
               ],
-              "location": "StepDefinitions.i_enter_my_password(String)"
+              "location": "StepDefinitions.iEnterMyPassword(String)"
             },
             "matchedColumns": [
               1
@@ -690,27 +791,27 @@
           },
           {
             "result": {
-              "duration": 170642956,
+              "duration": 3299458245,
               "status": "passed"
             },
-            "line": 8,
-            "name": "I click the login button",
+            "line": 25,
+            "name": "I click the sign in now button",
             "match": {
-              "location": "StepDefinitions.i_click_the_login_button()"
+              "location": "StepDefinitions.i_click_the_sign_in_now_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 2122092871,
+              "duration": 316157193,
               "status": "passed"
             },
-            "line": 9,
-            "name": "I want to see an error \"Invalid request\" error message details",
+            "line": 26,
+            "name": "I want to see an error \"Sorry, we have been unable to sign you in.\" error message details",
             "match": {
               "arguments": [
                 {
-                  "val": "Invalid request",
+                  "val": "Sorry, we have been unable to sign you in.",
                   "offset": 24
                 }
               ],
@@ -720,144 +821,6 @@
               2
             ],
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 1,
-            "name": "@Login"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 233917,
-              "status": "passed"
-            },
-            "match": {
-              "location": "StepDefinitions.setup()"
-            }
-          }
-        ],
-        "line": 34,
-        "name": "As a user I want to check if I can login successfully",
-        "description": "",
-        "id": "login-test;as-a-user-i-want-to-check-if-i-can-login-successfully;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 3204876342,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "I go to the Home Page",
-            "match": {
-              "location": "StepDefinitions.i_go_to_the_Home_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 9135920213,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "I click the login link",
-            "match": {
-              "location": "StepDefinitions.i_click_the_login_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 363858969,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "I enter my email \"jotesanya97@gmail.com\" address",
-            "match": {
-              "arguments": [
-                {
-                  "val": "jotesanya97@gmail.com",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.i_enter_my_email_address(String)"
-            },
-            "matchedColumns": [
-              0
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1773228027,
-              "status": "passed"
-            },
-            "line": 27,
-            "name": "I enter my password \"Bababinraders1\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Bababinraders1",
-                  "offset": 21
-                }
-              ],
-              "location": "StepDefinitions.i_enter_my_password(String)"
-            },
-            "matchedColumns": [
-              1
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 146669199,
-              "status": "passed"
-            },
-            "line": 28,
-            "name": "I click the login button",
-            "match": {
-              "location": "StepDefinitions.i_click_the_login_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2248013571,
-              "status": "passed"
-            },
-            "line": 29,
-            "name": "I verify that \"James Otesanya\" is logged in",
-            "match": {
-              "arguments": [
-                {
-                  "val": "James Otesanya",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.i_verify_that_is_logged_in(String)"
-            },
-            "matchedColumns": [
-              2
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 3332074233,
-              "status": "passed"
-            },
-            "line": 30,
-            "name": "I sign out",
-            "match": {
-              "location": "StepDefinitions.i_sign_out()"
-            },
-            "keyword": "And "
           }
         ],
         "tags": [
@@ -887,7 +850,7 @@
         "before": [
           {
             "result": {
-              "duration": 340584,
+              "duration": 205848,
               "status": "passed"
             },
             "match": {
@@ -895,7 +858,7 @@
             }
           }
         ],
-        "line": 31,
+        "line": 32,
         "name": "As a new user i want to create an account",
         "description": "",
         "id": "register-new-user;as-a-new-user-i-want-to-create-an-account;;2",
@@ -904,7 +867,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3035640635,
+              "duration": 7935750176,
               "status": "passed"
             },
             "line": 6,
@@ -916,51 +879,294 @@
           },
           {
             "result": {
-              "duration": 9445150044,
+              "duration": 4872093567,
               "status": "passed"
             },
             "line": 7,
-            "name": "I click the sign up button",
+            "name": "I click my account",
             "match": {
-              "location": "StepDefinitions.i_click_the_sign_up_button()"
+              "location": "StepDefinitions.i_click_my_account()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 890010966,
+              "duration": 3633254737,
               "status": "passed"
             },
             "line": 8,
-            "name": "I enter my new email address",
+            "name": "I click continue on the new customers side",
             "match": {
-              "location": "StepDefinitions.i_enter_my_new_email_address()"
+              "location": "StepDefinitions.i_click_continue_on_the_new_customers_side()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 241168204,
+              "duration": 2977718831,
               "status": "passed"
             },
             "line": 9,
-            "name": "I enter my phone number",
+            "name": "I enter my title",
             "match": {
-              "location": "StepDefinitions.i_enter_my_phone_number()"
+              "location": "StepDefinitions.i_enter_my_title()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1302554755,
+              "duration": 868312515,
               "status": "passed"
             },
             "line": 10,
-            "name": "I verify my phone number via text message",
+            "name": "I enter a firstname \"mike\"",
             "match": {
-              "location": "StepDefinitions.i_verify_my_phone_number_via_text_message()"
+              "arguments": [
+                {
+                  "val": "mike",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.i_enter_a_firstname(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 298851930,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter a lastname \"dean\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dean",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefinitions.i_enter_a_lastname(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 715600468,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter my email address",
+            "match": {
+              "location": "StepDefinitions.i_enter_my_email_address()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 415386199,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter my password",
+            "match": {
+              "location": "StepDefinitions.i_enter_my_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 320945965,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter my date of birth",
+            "match": {
+              "location": "StepDefinitions.i_enter_my_date_of_birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 364495907,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter my contact telephone number",
+            "match": {
+              "location": "StepDefinitions.i_enter_my_contact_telephone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 226958597,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter my house number or name",
+            "match": {
+              "location": "StepDefinitions.i_enter_my_house_number_or_name()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 311817544,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I enter my postcode",
+            "match": {
+              "location": "StepDefinitions.i_enter_my_postcode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1585781521,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I click search",
+            "match": {
+              "location": "StepDefinitions.i_click_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348682106,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I click no",
+            "match": {
+              "location": "StepDefinitions.i_click_no()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289339883,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I click on the post tick box",
+            "match": {
+              "location": "StepDefinitions.i_click_on_the_post_tick_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 459245848,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I click on the telephone tickbox",
+            "match": {
+              "location": "StepDefinitions.i_click_on_the_telephone_tickbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 350569357,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I click on the SMS tickbox",
+            "match": {
+              "location": "StepDefinitions.i_click_on_the_SMS_tickbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 260742924,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the Email tickbox",
+            "match": {
+              "location": "StepDefinitions.i_click_on_the_Email_tickbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1553438128,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click register my account",
+            "match": {
+              "location": "StepDefinitions.i_click_register_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2649240702,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click continue and register",
+            "match": {
+              "location": "StepDefinitions.i_click_continue_and_register()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9811402105,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I click shop now",
+            "match": {
+              "location": "StepDefinitions.iClickShopNow()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1881916257,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I verify that \"Mike\" is logged in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mike",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.i_verify_that_is_logged_in(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6876184327,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I sign out",
+            "match": {
+              "location": "StepDefinitions.i_sign_out()"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
@@ -980,6 +1186,169 @@
       {
         "line": 1,
         "name": "@Register"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 161872,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "As a user I want to search for an item",
+        "description": "",
+        "id": "search;as-a-user-i-want-to-search-for-an-item;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5855136374,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I go to the Home Page",
+            "match": {
+              "location": "StepDefinitions.i_go_to_the_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6040437895,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click my account",
+            "match": {
+              "location": "StepDefinitions.i_click_my_account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2163386198,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter my email \"jotesanya97@gmail.com\" address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jotesanya97@gmail.com",
+                  "offset": 18
+                }
+              ],
+              "location": "StepDefinitions.i_enter_my_email_address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204792515,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter my password \"Today01\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Today01",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.iEnterMyPassword(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4746967018,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click the sign in now button",
+            "match": {
+              "location": "StepDefinitions.i_click_the_sign_in_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 886994152,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I type \"Shoes\" in the search input box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shoes",
+                  "offset": 8
+                }
+              ],
+              "location": "StepDefinitions.i_type_in_the_search_input_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10031956959,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the search button",
+            "match": {
+              "location": "StepDefinitions.i_click_on_the_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33900577310,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on the item I want",
+            "match": {
+              "location": "StepDefinitions.i_click_on_the_item_I_want()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Search"
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "Search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Search"
       }
     ]
   }

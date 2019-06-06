@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 
   
-<title>Cucumber-JVM Reports  - Tag: @ForgotPsw</title>
+<title>Cucumber-JVM Reports  - Feature: Search</title>
 
 </head>
 <body>
@@ -74,9 +74,9 @@ $(document).ready(function() {
         </thead>
         <tbody>
           <tr class="info">
-            <td>eComs</td>
+            <td>Next</td>
                           <td>1</td>
-                        <td>01 Jun 2019, 21:12</td>
+                        <td>06 Jun 2019, 23:42</td>
           </tr>
         </tbody>
       </table>
@@ -87,7 +87,7 @@ $(document).ready(function() {
 <div id="report-lead" class="container-fluid>
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <h2>Tag Report</h2>
+      <h2>Feature Report</h2>
           </div>
   </div>
 </div>
@@ -105,7 +105,7 @@ $(document).ready(function() {
     <th colspan="2">Totals</th>
   </tr>
   <tr>
-    <th>Tag</th>
+    <th>Feature</th>
         <th class="passed">Passed</th>
     <th class="failed">Failed</th>
     <th class="total">Total</th>
@@ -122,17 +122,17 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">@ForgotPsw</td>
+          <td class="tagname">Search</td>
                     <td  class="passed"    >1</td>
           <td >0</td>
           <td class="total">1</td>
-          <td      class="passed"    >5</td>
+          <td      class="passed"    >8</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">5</td>
-          <td class="duration" data-value="45508974019">45s 508ms</td>
+          <td class="total">8</td>
+          <td class="duration" data-value="63830248421">1m 3s 830ms</td>
           <td class="passed">Passed</td>
         </tr>
         </tbody>
@@ -147,24 +147,37 @@ $(document).ready(function() {
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <div class="elements">
+      <div class="feature">
+        
+<div class="tags indention">
+       <a href="Search.html">@Search</a>
+  </div>
 
-                  
+        
+<div class="brief passed">
+  <span class="keyword indention">Feature</span>
+  <span class="name">Search</span>
+  
+
+  </div>
+
+        <div class="description indention"></div>
+
+        <div class="elements inner-level">
+                      
 <div class="element">
-      <div class="indention">
-      <a href="ForgotPsw-feature.html">View Feature</a> <i>ForgotPsw Test</i>
-    </div>
   
   
 <div class="tags indention">
+       <a href="Search.html">@Search</a>
   </div>
 
 
     <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
 <div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">As a user I want to see if I can still login even though I have forgotten my password</span>
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">As a user I want to search for an item</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -194,7 +207,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">StepDefinitions.setup()</span>
                         
-  <span class="lead-duration duration">14s 722ms</span>
+  <span class="lead-duration duration">000ms</span>
 
           </div>
 
@@ -229,7 +242,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">I go to the Home Page</span>
   
-  <span class="lead-duration duration">17s 810ms</span>
+  <span class="lead-duration duration">5s 855ms</span>
 
   </div>
 
@@ -248,9 +261,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I click the login link</span>
+  <span class="name">I click my account</span>
   
-  <span class="lead-duration duration">13s 742ms</span>
+  <span class="lead-duration duration">6s 040ms</span>
 
   </div>
 
@@ -269,9 +282,72 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">I click on the forgot your password link</span>
+  <span class="name">I enter my email "jotesanya97@gmail.com" address</span>
   
-  <span class="lead-duration duration">12s 161ms</span>
+  <span class="lead-duration duration">2s 163ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">I enter my password "Today01"</span>
+  
+  <span class="lead-duration duration">204ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">I click the sign in now button</span>
+  
+  <span class="lead-duration duration">4s 746ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">I type "Shoes" in the search input box</span>
+  
+  <span class="lead-duration duration">886ms</span>
 
   </div>
 
@@ -290,9 +366,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">I enter my email in the enter email field</span>
+  <span class="name">I click on the search button</span>
   
-  <span class="lead-duration duration">451ms</span>
+  <span class="lead-duration duration">10s 031ms</span>
 
   </div>
 
@@ -311,9 +387,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">Then</span>
-  <span class="name">I click reset password</span>
+  <span class="name">I click on the item I want</span>
   
-  <span class="lead-duration duration">1s 342ms</span>
+  <span class="lead-duration duration">33s 900ms</span>
 
   </div>
 
@@ -337,7 +413,8 @@ $(document).ready(function() {
   </div>
 </div>
 
-        
+                  </div>
+
       </div>
     </div>
   </div>
